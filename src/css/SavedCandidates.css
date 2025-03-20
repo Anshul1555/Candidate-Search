@@ -1,0 +1,70 @@
+/* Center the table heading */
+h1 {
+    color: #ffffff;
+    padding-left: 5px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 2rem; /* Fixed incorrect `size` property */
+}
+
+/* Ensure consistent row styling */
+.row-container {
+    margin: 0; /* Remove extra margins */
+    padding: 0; /* Reduce top & bottom padding */
+    height: 20px;
+}
+
+.table td, .table th {
+    padding: 4px 8px; /* Reduce padding (default is often 12px) */
+    vertical-align: middle; /* Ensure proper alignment */
+}
+
+/* Center image inside table cell */
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;/* Ensures vertical alignment */
+    margin: 10px 0;
+}
+
+/* Proper image styling */
+.img-container img {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    object-fit: cover; /* Ensures the image fills the shape without distortion */
+}
+
+/* Center button inside table cell */
+
+
+/* Styling for the round red button */
+.btns-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;/* Circular shape */
+    margin: 10px 0;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%; /* Makes it round */
+    background-color: red; /* Red background */
+    color: white; /* White text */
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    height: 40px; /* Ensure equal height and width for circle */
+    width: 40px;  /* Ensure equal height and width for circle */
+    font-size: 24px; /* Increase text size inside button */
+    line-height: 1;/* Font size */
+}
+
+/* Button Hover Effect */
+.btns-container .btn:hover {
+    background-color: darkred; /* Darker red on hover */
+    transform: scale(1.1); /* Slight zoom effect */
+    transition: 0.2s ease-in-out;
+}
