@@ -16,17 +16,19 @@ The Candidate Search project is a React-based application that allows users to s
 
 Clone the repository:
 
-> git clone (https://github.com/Anshul1555/Candidate-Search.git)
+`git clone (https://github.com/Anshul1555/Candidate-Search.git)`
 
 Navigate to the project directory:
 
-> cd candidate-search
-> Install dependencies:
+`cd candidate-search`
 
-> npm install
-> Start the application:
+Install dependencies:
 
-> npm run start
+`npm install `
+
+Start the application:
+
+`npm run start`
 
 ## Usage
 
