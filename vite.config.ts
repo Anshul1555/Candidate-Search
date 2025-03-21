@@ -15,4 +15,7 @@ export default defineConfig({
       },
     },
   },
+preview: {
+    allowedHosts: ['candidate-search-34o9.onrender.com'], // Add the allowed host here
+  },
 });
