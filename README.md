@@ -65,6 +65,10 @@ Contributions are welcome! Follow these steps:
 3.  Commit changes.
 4.  Push the branch and create a pull request.
 
+## Video:
+
+https://github.com/user-attachments/assets/6790de29-7189-49b4-9604-478780d0d72c
+
 ## License
 
 This project is licensed under the MIT License.
